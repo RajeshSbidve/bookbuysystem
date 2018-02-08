@@ -1,0 +1,845 @@
+@charset "utf-8";
+/* CSS Document */
+
+body { margin:0px; padding:0px; background-color:#eaf0f2;  background-repeat:repeat; background-position:top;  }
+
+.header { background-image:url(../images/dashboard-bg.gif); background-position:top; background-repeat:repeat-x; height:79px; }
+
+.tab{width:100px; text-align:center; border:solid #cfcfcf; padding:0px; padding-right:5px;
+background-image: url(../images/subgridimg.gif); color:#515151;  
+ }
+.tabImage{
+	 background-image: url(../images/footer.gif);
+	 }
+.container { width:1366px;}
+
+.tabsubhdr
+{
+	font-size:12px;
+	color:#656565;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	height:25px;
+	padding-left:5px;
+
+}
+
+.tabinnrtble
+ {
+ 	width:100%; 
+	position: relative; 
+   
+ }
+ .AddBtn{
+	
+	padding-right:5px;
+	text-decoration:none;
+	color:#333333; 
+	font-weight:bold;
+	
+
+	 
+	 }
+ fieldset { font-family:Arial, Helvetica, sans-serif; font-size:13px; color:#333333;
+	border-bottom:1px solid  #cfcfcf;
+	border-top:1px solid #cfcfcf;
+	border-right:1px solid #cfcfcf;
+	border-left:1px solid  #cfcfcf; 
+    background-color:#fafafa;
+	 box-shadow: 8px 8px 8px #cfcfcf;
+	 -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+	
+	}	
+.fieldsetSub{
+	
+	 box-shadow: none;
+	  background-color: #FFFAF0;
+	}
+
+
+
+legend { font-weight:bold; }
+
+.noborder
+ {
+	position:relative;
+	
+	padding-left:10px;
+	padding-right:10px;
+	alignment-adjust:central;
+	
+	 
+ }
+
+ .tabsubrow {
+	
+	font-size:12px;
+	color:#656565;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	height:25px; 	
+	text-indent: 8px;
+	position:relative;
+
+}
+ 
+.logo { height:40px;  width:1200px; }
+
+.toprightnav { float:right; height:40px; }
+
+.topmenubackground { background-image:url(../images/gray-top-background.gif);background-position:top; background-repeat:repeat-x; height:49px; }
+
+.username { font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; color:#000000; padding-top:12px; width:80px; text-decoration:none; }
+
+.helptxt { text-decoration:none; color:#000000; }
+
+.helptxt:hover { text-decoration:none; color:#CC6600; }
+
+.navigation { height:40px; font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; }
+
+ul{margin:0px; padding:0px; }
+
+li{list-style-type:none; display:inline; padding-left:0px; padding-right:70px; line-height:40px; }
+
+.li:hover { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fab600; font-weight:bold; text-decoration:none; }
+
+/*li>a:hover{text-decoration: none;color: #cc6600;
+font-weight: bold; }*/
+
+.nav { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#FFFFFF; font-weight:bold; text-decoration:none; }
+
+.nav:hover { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#fab600; font-weight:bold; text-decoration:none; }
+
+.whiteSpace { height:4px; }
+.whitespacedvdrgrid{height:0px; padding-top:0px; }
+
+.leftsecstyle { border:1px solid #cfcfcf; width:200px; padding-left:12px; padding-right:12px; height:434px; vertical-align:top; padding-top:10px; }
+
+.dashboardsec { border:1px solid #cfcfcf; width:750px; height:434px; vertical-align:top; }
+
+.vertcaldvdr { width:6px; }
+
+.dashboardbg { background-image:url(../images/dashboard-bg.gif); background-repeat:repeat-x; background-position:top; height:66px; width:750px; }
+
+.searchbox { border:1px solid #CCC; height:17px; padding-left:5px; padding-right:5px; width:150px; font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#999999; } 
+
+.welcometxt { font-family:Arial, Helvetica, sans-serif; font-size:20px; font-weight:bold; color:#5a5959; padding-left:10px; vertical-align:top; line-height:50px; }
+
+.dashboardcolumn { background-image:url(../images/dashboard-column.gif); width:720px; height:164px; background-repeat:no-repeat; background-position:top; vertical-align:top; }
+
+.mastertxt { font-family:Arial, Helvetica, sans-serif; text-transform:uppercase; font-size:14px; font-weight:bold; color:#535353; padding-left:10px; }
+
+.masterslide1 { width:238px; }
+
+.mastertable { padding-left:17px; padding-top:20px; }
+
+.masterslide2 { padding-top:20px; padding-left:1px; width:235px; }
+
+.dashboardtxt { font-family:Arial, Helvetica, sans-serif; font-size:12px; line-height:19px; color:#000000; padding-left:12px; padding-right:12px; padding-top:10px; }
+
+.moretxt { float:right; font-family:Arial, Helvetica, sans-serif; padding-right:20px; text-decoration:none; font-weight:bold; color:#003a69; font-size:12px; line-height:19px;  padding-top:10px; }
+
+.moretxt:hover { float:right; font-family:Arial, Helvetica, sans-serif; padding-right:20px; text-decoration:none; font-weight:bold; color:#CC6600; font-size:12px; line-height:19px;  padding-top:10px; }
+
+.footer { background-image:url(../images/footer.gif); background-position:top; background-repeat:repeat-x; height:40px; }
+
+.footertxt { font-family:Arial, Helvetica, sans-serif; font-size:11px; color:#333333; text-align:center; }
+
+
+
+.searchButton { padding-right:20px; padding-top:4px; padding-bottom:2px; vertical-align:middle; }
+
+
+.next { font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#0066FF; text-decoration:none;  }
+
+.deleteicon { padding-right:8px; }
+.deleteicon_pro { padding-right:15px; }
+
+.gray { background-color:#f3f3f3; }
+
+.lineheight1 { line-height:28px; }
+
+.grayline { height:1px; background-color:#cfcfcf; }
+.graylineadvance {  border-bottom:1px solid #cfcfcf;}
+
+.bodyClass
+{
+margin-left:0px; margin-bottom:0px; margin-right:0px; margin-top:0px;
+}
+
+.createButton{
+	padding-top:5px;
+	padding-right:10px;
+}
+.AddButton{
+	padding-top:5px;
+	
+	text-decoration:none;
+	color:#5a5959; 
+	font-weight:bold;
+
+}
+
+.Space{
+	padding-top:15px;
+
+}
+.SpaceBnLodCom{
+	padding-left:10px;
+
+}
+
+.mainTable
+{ 
+	width:100%; 
+	position:relative; 
+	padding-left:10px;
+	padding-right:12px;
+}
+.headerText { font-family:Arial, Helvetica, sans-serif; 
+	font-size:18px; 
+	font-weight:bold; 
+	color:#5a5959;
+	padding-left:2px; 
+	vertical-align:middle; 
+	line-height:45px; 
+	
+	}
+	
+	.headerTextSmall { font-family:Arial, Helvetica, sans-serif; 
+	
+	
+	text-decoration:none;
+	color:#5a5959; 
+	font-weight:bold;
+	font-size:14px;
+	
+	}
+
+.subinnerTable
+ {
+	position:relative;
+	width:100%;
+	border-top:1px solid #FFCCCC ;
+	
+	 
+ }
+
+
+.innerTable
+ {
+ 	width:100%; 
+	position: relative; 
+
+	
+	border-right:1px solid #d77d7d;
+	border-left:1px solid  #d77d7d; 
+    background-color: #FFFAF0;
+	 box-shadow: 8px 8px 8px #d77d7d;
+
+
+
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+ }
+ 
+ 
+
+ .icon-reorder:before {
+content:" ";
+}
+ .newUI{
+	 
+	  background-color:#fafafa;
+	 width:100%; 
+	 
+	 }
+ /*.innerTableadd
+ {
+ 	width:100%; 
+	position: relative; 
+		
+	border-top:1px solid #cfcfcf;
+	
+	border-left:1px solid  #cfcfcf; 
+	border-right:1px solid  #cfcfcf; 
+ 
+	
+
+ }
+  .innerTableaddbelow
+ {
+ 	width:100%; 
+	position: relative; 
+		
+	border-top:1px solid #cfcfcf;
+	
+	border-left:1px solid  #cfcfcf; 
+	border-right:1px solid  #cfcfcf; 
+ 
+	 box-shadow: 5px 5px 5px  #cfcfcf;
+
+ }
+.innerTableadd
+ {
+ 	width:90%; 
+	position: relative; 
+		border-bottom:1px solid  #cfcfcf;
+	border-top:1px solid #cfcfcf;
+	border-right:1px solid #cfcfcf;
+	border-left:1px solid  #cfcfcf; 
+ 
+	 box-shadow: 5px 5px 5px  #cfcfcf;
+
+
+ }
+  .innerTableadd1
+ {
+ 	width:100%; 
+	position: relative; 
+		border-bottom:1px solid  #cfcfcf;
+	border-top:1px solid #cfcfcf;
+	border-right:1px solid #cfcfcf;
+	border-left:1px solid  #cfcfcf; 
+ 
+	 box-shadow: 5px 5px 5px  #cfcfcf;
+
+
+ }*/
+ .small-field {
+-moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+}
+.subHeaderText
+{
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:#d77d7d;
+	height:25px;
+	padding-left:5px;
+	 -moz-border-radius: 8px;
+-webkit-border-radius: 8px;
+
+
+}
+
+.subHeaderText1
+{
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:rgb(228,109,10);
+	height:25px;
+	padding-left:5px;
+
+}
+.subHeaderText2
+{
+	font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:rgb(131,211,186);
+	height:25px;
+	padding-left:5px;
+
+}
+.edit{
+	padding-left:10px;
+	}
+
+.ImageSubgrid{
+	 
+	 padding-left:72%;
+	 }
+	 .arrowImg{
+		 font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:#A52A2A;
+	height:25px;
+	padding-left:30px;
+	
+		 
+		 }
+		  .arrowImg1{
+		 font-size:12px;
+	color:#FFFFFF;
+	font-weight:bold;
+	font-family:Arial, Helvetica, sans-serif;	
+	background-color:rgb(228,109,10);
+	height:25px;
+	padding-left:24px;
+	
+		 
+		 }
+	 .Image{
+		 
+		  padding-left:1160px;
+		 }
+		 
+		  .Image_LoadCom{
+		 
+		  padding-left:510px;
+		 }
+  .labelText
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#333333;
+	text-align:left; text-decoration:none; 
+	padding-left:5px; 
+	padding-top:2px; 
+	padding-bottom:2px; 
+	width:10%; 
+}
+
+  .labelTextSmall
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#333333;
+	text-align:left; text-decoration:none; 
+	padding-left:4px; 
+	padding-top:2px; 
+	padding-bottom:2px; 
+	width:5%; 
+}
+  .fieldText
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#656565;
+	text-align:left; text-decoration:none; 
+	padding-left:4px; 
+	padding-top:2px; 
+	padding-bottom:2px; 
+	width:20%; 
+	
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+ .fieldTextProduct
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#656565;
+	text-align:left; text-decoration:none; 
+	
+	padding-bottom:2px; 
+	width:15%; 
+	
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+}
+.textBox{
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #978f6c;
+-webkit-box-shadow: 0 0 6px #978f6c;
+	
+	
+	}
+ .fieldTextSmall
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#656565;
+	text-align:left; text-decoration:none; 
+	padding-left:4px; 
+	padding-top:2px; 
+	padding-bottom:2px; 
+	width:15%; 
+}
+ .fieldTextMedium
+{ 
+	font-family:Arial, Helvetica, sans-serif; 
+	font-size:12px; 
+	color:#656565;
+	text-align:left; text-decoration:none; 
+	padding-left:4px; 
+	padding-top:2px; 
+	padding-bottom:2px; 
+	width:30%; 
+}
+/*
+Class : buttonRow_Inner
+Created By : M.Neethi
+On : 26-Jun-2008
+Purpose : Used for buttons which are placed inside the table. Ex: Search, SelectAll etc
+*/
+.buttonRow_Inner {
+text-align:center;
+padding-right:2px;
+padding-left:20px;
+vertical-align:middle; 
+}
+
+/*
+Class : gridDataOdd
+Created By : Rani
+On : 26-Jun-2008
+Purpose : Used for displaying the odd rows in the search results grid. This aligns the values exactly to the table data.
+*/
+.gridDataOdd
+{
+ 	 	
+		
+		height:24px;
+		font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; text-decoration:none; color:#656565;
+padding-left:8px;
+line-height:28px; text-indent: 8px;
+}
+/*
+Class : gridDataOdd
+Created By : Rani
+On : 26-Jun-2008
+Purpose : Used for displaying the odd rows in the search results grid. This aligns the values exactly to the table data.
+*/
+.gridDataEven
+{
+ 		height:24px;
+		font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; text-decoration:none; color:#656565;
+padding-left:8px;
+background-color:#f7f7f7;
+line-height:28px; text-indent: 8px;
+}
+
+.gridHeader
+{
+
+font-size:12px;
+color:#656565;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;	
+
+height:25px; 	
+/*text-indent: 8px;*/
+
+	
+}
+.subgridHeader{
+	
+background-image:url(../images/subgridimg.gif);
+font-size:12px;
+color:#656565;
+font-weight:bold;
+font-family:Arial, Helvetica, sans-serif;	
+height:25px; 	
+text-indent: 8px;
+position:relative;
+
+}
+.hyperLink{
+	color:#656565;
+	font-family:Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	
+	font-size:12px;
+}
+.spanSpace{
+	padding-left:4px;
+	
+	}
+	
+.gridNavigationBar
+{ 
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#0066FF; text-decoration:none; 
+	color:#000000;  
+	text-align:right; 
+	height:18px;
+	vertical-align:middle;
+	padding-right:10px;
+	 color:#0066FF; text-decoration:none;
+	 
+}
+
+.textStyle_30
+{ 
+	
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:30px;
+	 height:15px;
+}
+.textStyleDisabled_80
+{
+	
+	background-color:rgb(232,232,232);
+	font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:80px;
+	 height:15px;
+	}
+.textStyle_80
+{ 
+	
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:80px;
+	 height:15px;
+}
+/* 
+Created By: M.Neethi
+Created on: 27JUN08
+Description: Text Style can be used for fields with 280px width example: concatenated firstname & lastname fields.
+Use this style for fields with database length of nvarchar(150) to nvarchar(200)
+
+*/
+.textStyle_350
+{ 
+	
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:350px;
+	 height:15px;
+}	
+	
+	
+	/* 
+Created By: M.Neethi
+Created on: 27JUN08
+Description: Text Style can be used for fields with 280px width example: concatenated firstname & lastname fields.
+Use this style for fields with database length of nvarchar(150) to nvarchar(200)
+
+*/
+.textStyle_130
+{ 
+	
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:130px;
+	 height:15px;border:1px solid #cfcfcf;
+	 -moz-border-radius: 3px;
+-webkit-border-radius: 3px;
+
+
+}	
+.textStyle_200
+{ 
+	
+	 font-family:Arial, Helvetica, sans-serif; font-size:12px; color:#000000; padding-left:5px; padding-right:5px; width:200px;
+	 height:15px;
+}	
+		
+.dropdown_Fixed{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#000000;  width:90px; height:20px; 
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #656565;
+-webkit-box-shadow: 0 0 6px #978f6c; border:1px solid #cfcfcf;
+ }
+.dropdown_Free{
+font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:normal; color:#656565;   height:20px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #978f6c;
+-webkit-box-shadow: 0 0 6px #978f6c; border:1px solid #cfcfcf;  }
+
+/* 
+Created By: M.Neethi
+Created on: 27JUN08
+Description: TextArea Style can be used for fields with 230px  width example: concatenated firstname & lastname fields.
+Use this style for fields with database length of nvarchar(50) to nvarchar(100)
+Created the class based on old class name from 'namestyle' to 'textStyle_180'
+*/
+.textAreaStyle_Small
+{ 
+	width:180px; height:30px; vertical-align:middle; border:1px solid #cfcfcf; font-size:12px; color:#000000; 
+	font-family:Arial, Helvetica, sans-serif; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #978f6c;
+}	
+
+
+/* 
+Created By: M.Neethi
+Created on: 27JUN08
+Description: TextArea Style can be used for fields with 230px  width example: concatenated firstname & lastname fields.
+Use this style for fields with database length of nvarchar(50) to nvarchar(100)
+Created the class based on old class name from 'namestyle' to 'textStyle_180'
+*/
+.textAreaStyle_Medium
+{ 
+	width:99%; height:48px; vertical-align:middle; border:1px solid #cfcfcf; font-size:12px; color:#cfcfcf; 
+	font-family:Arial, Helvetica, sans-serif; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #978f6c;
+}	
+/* 
+Created By: M.Neethi
+Created on: 7JUL08
+Description: TextArea Style can be used for fields with 700px  width 
+Use this style for fields with database length of nvarchar(255) to ntext(16)
+
+*/
+.textAreaStyle_Large
+{ 
+	width:99%; height:48px; vertical-align:middle; border:1px solid #cfcfcf; font-size:12px; color:#000000; 
+	font-family:Arial, Helvetica, sans-serif; -moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+-moz-box-shadow: 0 0 6px #978f6c;
+}	
+
+.detailstxthead{font-family:Arial, Helvetica, sans-serif; font-size:12px; font-weight:bold; text-decoration:none; color:#656565;
+	padding-left:6px;
+	padding-bottom:3px;
+	}
+	
+	[class^="icon-"]:before, [class*=" icon-"]:before {
+    cursor: default;
+    display: inline-block;
+    text-decoration: inherit;
+}
+.portlet.box.blue > .portlet-title .caption > i, .portlet.box.green > .portlet-title .caption > i, .portlet.box.grey > .portlet-title .caption > i, .portlet.box.yellow > .portlet-title .caption > i, .portlet.box.red > .portlet-title .caption > i, .portlet.box.purple > .portlet-title .caption > i, .portlet.box.light-grey > .portlet-title .caption > i {
+    color: #FFFFFF;
+}
+.portlet-title .caption i {
+    color: #666666;
+    display: inline-block !important;
+    float: left;
+    font-size: 13px;
+    margin-right: 5px;
+    margin-top: 5px;
+}
+[class^="icon-"], [class*=" icon-"], [class^="icon-"]:hover, [class*=" icon-"]:hover {
+    background: none repeat scroll 0 0 transparent !important;
+}
+[class^="icon-"], [class*=" icon-"] {
+    background-image: none;
+    background-position: 0 0;
+    background-repeat: repeat;
+    display: inline;
+    height: auto;
+    line-height: normal;
+    margin-top: 0;
+    vertical-align: baseline;
+    width: auto;
+}
+[class^="icon-"], [class*=" icon-"] {
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+}
+[class^="icon-"], [class*=" icon-"] {
+    background-image: url(../images/img.jpg);
+    background-position: 14px 14px;
+    background-repeat: no-repeat;
+    display: inline-block;
+    height: 14px;
+    line-height: 14px;
+    margin-top: 1px;
+    vertical-align: text-top;
+    width: 14px;
+}
+.DetailsPage {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #EFEDEF;
+	border-right-width: 1px;
+	border-right-style: solid;
+	border-right-color: #C0C0C0;
+	color:#333333;
+	font-family: Arial, Verdana, sans-serif ;
+	font-size: 12px;
+	padding: 5px;
+	
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+	/*background-color:#fafafa;*/
+}
+.even{
+	background-color:#FFFAF0;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+	}
+.odd{
+	background-color:#FFE4C4;
+	-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+
+	}
+	
+	.PageNumber {
+	font-size:10px;
+	color:#656565;
+	/*background:#C5D3D8;*/
+	background-color:#A52A2A;
+	width:8px;
+	
+	
+}
+a {
+	position: relative;
+	cursor: pointer;
+	font: normal normal 85% sans-serif;
+	color: #999;
+	/*text-shadow: #090A0B 0 -1px;*/
+	display: inline-block;
+	font-size:12px;
+}
+
+a > i {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	line-height: 150%;
+	color: #656565;
+	text-shadow: white 0 1px;
+	background: #DDD;
+	background-clip: padding-box;
+	
+	border: 5px solid #111;
+	border: 5px solid #656565;
+	border-radius: 3px;
+	position: absolute;
+	width: 100px;
+	left: 50%;
+	margin-left: -60px;
+	font-size:12px;
+	font-weight:bold;
+	bottom: 100%;
+	margin-bottom: 15px;
+	visibility:hidden;
+	opacity:0;
+	-webkit-transition: opacity 0.5s linear;
+	-moz-transition: opacity 0.5s linear;
+	-ms-transition: opacity 0.5s linear;
+	-o-transition: opacity 0.5s linear;
+	transition: opacity 0.5s linear;
+}
+
+a > i:before, a > i:after {
+	content: "";
+	position: absolute;
+	border-left: 5px solid transparent;
+	border-right: 5px solid transparent;
+	top: 100%;
+	left: 50%;
+	margin-left: -10px;
+}
+
+a > i:before {
+	border-top: 10px solid #111;
+	border-top: 10px solid rgba(0, 0, 0, 0.5);
+	margin-top: 5px;
+}
+
+a > i:after{
+	border-top: 10px solid #DDD;
+	margin-top: -2px;
+	z-index: 1;
+}
+
+a:hover > i {
+	visibility: visible;
+	opacity: 1;
+}
+
+.next{
+	
+	font-family:Arial, Helvetica, sans-serif; 
+	
+	font-weight:bold; 
+	color:#5a5959;
+
+	vertical-align:middle; 
+	line-height:45px; 
+	}
